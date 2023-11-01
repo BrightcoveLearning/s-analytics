@@ -1,7 +1,96 @@
 <h1>{{ page.title }}</h1>
 <article class="bcls-article">
   <summary>{{ page.description }}</summary>
-  <section class="bcls-section">
-    <h2 id="Introduction">Introduction</h2>
-  </section>
+</article>
+<section class="bcls-section">
+  <h2 id="create a Segment">Create a New Segment</h2>
+  <p>To Create a Segment, follow these steps:</p>
+  <ol class="bcls-tasklist">
+    <li>Login to Video Cloud.</li>
+    <li>In the primary navigation, click <strong>Analytics</strong>.
+      <figure class="bcls-figure">
+        <img class="bcls-image" src="/assets/images/s-analytics-img/reports/segments-report/left-menu.webp" alt="left-navigation">
+        <figcaption class="bcls-caption--image">left-navigation</figcaption>
+      </figure></li>
+      <li>In the <strong>Custom</strong> section, click <strong> Segments</strong>.
+        <figure class="bcls-figure">
+          <img class="bcls-image" src="/assets/images/s-analytics-img/reports/segments-report/segments.webp" alt="segments">
+          <figcaption class="bcls-caption--image">segments</figcaption>
+        </figure>
+      </li>
+    <li>To create a new segment, click <span class="button-blue"> Create </span>.</li>
+   <li>Give your segment a name.</li>
+    <li> In User Filters, click <span class="button-blue-text">+ Add user filter </span>. User Filters allow to segment based on different subscription based attributes.
+      <figure class="bcls-figure">
+  <img class="bcls-image" src="/assets/images/s-analytics-img/reports/segments-report/user-filters.webp" alt="select a type">
+  <figcaption class="bcls-caption--image">select a type</figcaption>
+</figure>
+<p>You can also select an Engagement Status.
+  <figure class="bcls-figure">
+  <img class="bcls-image" src="/assets/images/s-analytics-img/reports/segments-report/multiple status.webp" alt="Engagement Status">
+  <figcaption class="bcls-caption--image"> Engagement Status</figcaption>
+</figure>
+To learn more about what engagement status, see <a href="https://audience-insights.support.brightcove.com/getting-started/audience-insights-glossary.html#E">Audience Insights Glossary</a> </p>
+<p>To add more filters, click <span class="button-blue-text">+ Add user filter </span>. You can add many filters as you want.</p>
+<li>Click <span class="button-gray">Add</span></li>
+<li>For Content Filters, click <span class="button-blue-text">+ Add content filter </span>. Content Filters allow us to segment based on other content attributes.
+  <figure class="bcls-figure">
+    <img class="bcls-image" src="/assets/images/s-analytics-img/reports/segments-report/content-filters.webp" alt="Content Filters">
+    <figcaption class="bcls-caption--image">Content Filters</figcaption>
+  </figure>
+<ul>
+  <li><strong>a.</strong> Choose a period between 3 days to 2 years</li>
+  <li><strong>b. and c.</strong> Choose any: <em>watched, watched-happy, watched-unhappy or not watched</em></li>
+  <li><strong>d.</strong> Select content.</li>
+</ul>
+<li> You can add additional filters. Click <span class="button-gray">Add</span> after each selection, to ensure your selections are saved.</li>
+<li>You can have your segments either <strong>Active</strong> or <strong>Inactive</strong>.
+  <figure class="bcls-figure">
+    <img class="bcls-image" src="/assets/images/s-analytics-img/reports/segments-report/active-or-inactive.webp" alt="active or inactive">
+    <figcaption class="bcls-caption--image">active or inactive</figcaption>
+  </figure>
+  <aside class="bcls-aside bcls-aside--information language-editable">Note: segments are set to Active by default at creation. </aside>
+</li>
+<li>Click <strong>Preview</strong> to see the total rows. And then, click <span class="button-blue">Create</span>.
+  <figure class="bcls-figure">
+    <img class="bcls-image" src="/assets/images/s-analytics-img/reports/segments-report/preview.webp" alt="preview">
+    <figcaption class="bcls-caption--image">preview</figcaption>
+  </figure>
+  <aside class="bcls-aside bcls-aside--information language-editable">Note: It takes a few minutes to create the segment. The status changes to <strong>In progress</strong> . When the segment is created, you receive a notification on the screen. Once it has been created, you can see <strong>active</strong> or <strong>Inactive</strong> status. </aside>
+</li>
+<aside class="bcls-aside bcls-aside--information language-editable">Notes:
+  <ul>
+    <li>Editing new filters override any reports generated with the previous filters </li>
+  <li>The Segment IDs are unique to each segment and allow you to identify each segment</li>
+  <li>The time it takes to create a segment could vary depending on the size of segment being generated. A notification shows when the segment is created. You can also click the refresh button to get the latest status</li>
+  <li>A user can be associated with multiple Segment IDs , and each of these segment IDs is tagged to user records that can be synchronized with CRM or MAP systems or be downloaded as a report</li>
+  <li>Creating a segment is not dependent on establishing integrations with MAP/CRM Systems. Segments can be created and downloaded as a report</li>
+  <li>Once you create a segment and set it to <strong>active</strong> status, it automatically updates your integrations. However, you can still use segments without having to use those integrations. So you do not need to establish the integrations to the account. You would still be available to create segments and download reports</li>
+<li>There is a limit of 10 active segments allowed at a time. If you need to create more segments, set one of the segments to <strong>inactive</strong> to create a new segment</li>
+</ul>
+</aside>
+  </ol>
+</section>
+<h2 id="create a Report">Create a Report</h2>
+<ol class="bcls-tasklist-restart">
+  <li>In the Segments screen, click on the arrow button.
+  <figure class="bcls-figure">
+    <img class="bcls-image" src="/assets/images/s-analytics-img/reports/segments-report/create-report.webp" alt="Create a Report">
+    <figcaption class="bcls-caption--image">Create a Report</figcaption>
+  </figure>
+  <li>The report is being created. Click the refresh button.
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="refresh-button" src="/assets/images/s-analytics-img/reports/segments-report/refresh-button.webp" />
+    </figure>
+  </li>
+  <li>Click the hyperlink, and the CSV file is downloaded to your computer/system.
+    <figure class="bcls-figure">
+      <img class="bcls-image" src="/assets/images/s-analytics-img/reports/segments-report/report.webp" alt="Report">
+      <figcaption class="bcls-caption--image">Report</figcaption>
+    </figure>
+  </li>
+  <aside class="bcls-aside bcls-aside--information language-editable">Note:
+  <li>Once a report is generated, you have seven days to view it before it is deleted. The segment remains active, however, the latest report needs to be regenerated.</li>
+  </aside>
+</li>
+</ol>
 </article>
